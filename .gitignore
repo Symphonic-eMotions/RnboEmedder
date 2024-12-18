@@ -1,0 +1,51 @@
+# macOS specifieke bestanden
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+
+# Derived Data
+DerivedData/
+build/
+
+# SwiftPM build folder
+.swiftpm/xcode/package.*
+.swiftpm/build/
+.packages/
+.build/
+
+# Swift Package Manager artifacts
+*.xcarchive
+*.xcworkspace
+Package.resolved
+
+# Logs
+*.log
+
+# Playground backups
+timeline.xctimeline
+playground.xcworkspace
+
+# SPM cache (indien je SPM gebruikt)
+.sourcekit-lsp
+.ide
+
+# Integrations (Xcode Server)
+xcresult/
+
+# Simulator gerelateerde data
+*.simstate
+
+# SwiftLint cache file (optioneel, als je SwiftLint gebruikt)
+.swiftlintcache
+
+# Carthage (optioneel, als je Carthage gebruikt)
+Carthage/Checkouts
+Carthage/Build
+
+# CocoaPods (optioneel, als je CocoaPods gebruikt)
+Pods/
+Podfile.lock
+Podfile.s.lock
+
