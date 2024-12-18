@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var audioManager = AudioManager()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Start") {
+                audioManager.start()
+            }
+            Button("Stop") {
+                audioManager.stop()
+            }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

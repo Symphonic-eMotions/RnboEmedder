@@ -11,6 +11,65 @@
 		7C9E09302D131BCC007DDF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E092F2D131BCC007DDF03 /* ContentView.swift */; };
 		7C9E09322D131BCE007DDF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09312D131BCE007DDF03 /* Assets.xcassets */; };
 		7C9E09352D131BCE007DDF03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09342D131BCE007DDF03 /* Preview Assets.xcassets */; };
+		7C9E09F42D1320FE007DDF03 /* au.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E093B2D1320FE007DDF03 /* au.cpp */; };
+		7C9E09F52D1320FE007DDF03 /* AUInfo.plist.in in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E093C2D1320FE007DDF03 /* AUInfo.plist.in */; };
+		7C9E09F62D1320FE007DDF03 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E093D2D1320FE007DDF03 /* common.cpp */; };
+		7C9E09F72D1320FE007DDF03 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E093E2D1320FE007DDF03 /* PkgInfo */; };
+		7C9E09F82D1320FE007DDF03 /* unity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E093F2D1320FE007DDF03 /* unity.cpp */; };
+		7C9E09F92D1320FE007DDF03 /* UnityInfo.plist.in in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09402D1320FE007DDF03 /* UnityInfo.plist.in */; };
+		7C9E09FA2D1320FE007DDF03 /* vst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09412D1320FE007DDF03 /* vst3.cpp */; };
+		7C9E09FB2D1320FE007DDF03 /* VST3Info.plist.in in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09422D1320FE007DDF03 /* VST3Info.plist.in */; };
+		7C9E09FC2D1320FE007DDF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09442D1320FE007DDF03 /* LICENSE */; };
+		7C9E09FD2D1320FE007DDF03 /* RNBO_JuceAudioProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09452D1320FE007DDF03 /* RNBO_JuceAudioProcessor.cpp */; };
+		7C9E09FE2D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09472D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.cpp */; };
+		7C9E09FF2D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09492D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.cpp */; };
+		7C9E0A002D1320FE007DDF03 /* rnbo_external_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E094C2D1320FE007DDF03 /* rnbo_external_wrapper.cpp */; };
+		7C9E0A012D1320FE007DDF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E094F2D1320FE007DDF03 /* LICENSE */; };
+		7C9E0A022D1320FE007DDF03 /* rnbo_bufferref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09502D1320FE007DDF03 /* rnbo_bufferref.cpp */; };
+		7C9E0A032D1320FE007DDF03 /* rnbo_data_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09522D1320FE007DDF03 /* rnbo_data_loader.cpp */; };
+		7C9E0A042D1320FE007DDF03 /* RNBO_MaxPresetAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09552D1320FE007DDF03 /* RNBO_MaxPresetAdapter.cpp */; };
+		7C9E0A052D1320FE007DDF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09582D1320FE007DDF03 /* LICENSE */; };
+		7C9E0A062D1320FE007DDF03 /* RNBO_WebAssembly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09592D1320FE007DDF03 /* RNBO_WebAssembly.cpp */; };
+		7C9E0A072D1320FE007DDF03 /* CCache.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E095C2D1320FE007DDF03 /* CCache.cmake */; };
+		7C9E0A082D1320FE007DDF03 /* conan.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E095D2D1320FE007DDF03 /* conan.cmake */; };
+		7C9E0A092D1320FE007DDF03 /* MinGWSTDThreads.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E095E2D1320FE007DDF03 /* MinGWSTDThreads.cmake */; };
+		7C9E0A0A2D1320FE007DDF03 /* rnbo_description.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E095F2D1320FE007DDF03 /* rnbo_description.h.in */; };
+		7C9E0A0B2D1320FE007DDF03 /* RNBOConan.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09602D1320FE007DDF03 /* RNBOConan.cmake */; };
+		7C9E0A0C2D1320FE007DDF03 /* RNBODescriptionHeader.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09612D1320FE007DDF03 /* RNBODescriptionHeader.cmake */; };
+		7C9E0A0D2D1320FE007DDF03 /* RNBOJuce.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09622D1320FE007DDF03 /* RNBOJuce.cmake */; };
+		7C9E0A0E2D1320FE007DDF03 /* SCCache.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09632D1320FE007DDF03 /* SCCache.cmake */; };
+		7C9E0A0F2D1320FE007DDF03 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09902D1320FE007DDF03 /* LICENSE.md */; };
+		7C9E0A102D1320FE007DDF03 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09982D1320FE007DDF03 /* LICENSE.md */; };
+		7C9E0A112D1320FE007DDF03 /* RNBO_LoggerNoStdLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E099C2D1320FE007DDF03 /* RNBO_LoggerNoStdLib.cpp */; };
+		7C9E0A122D1320FE007DDF03 /* RNBO_PlatformInterfaceNoStdLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E099D2D1320FE007DDF03 /* RNBO_PlatformInterfaceNoStdLib.cpp */; };
+		7C9E0A132D1320FE007DDF03 /* RNBO_CoreObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09A82D1320FE007DDF03 /* RNBO_CoreObject.cpp */; };
+		7C9E0A142D1320FE007DDF03 /* RNBO_DataBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09AA2D1320FE007DDF03 /* RNBO_DataBuffer.cpp */; };
+		7C9E0A152D1320FE007DDF03 /* RNBO_DataRefList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09AD2D1320FE007DDF03 /* RNBO_DataRefList.cpp */; };
+		7C9E0A162D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09AF2D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.cpp */; };
+		7C9E0A172D1320FE007DDF03 /* RNBO_Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09B32D1320FE007DDF03 /* RNBO_Engine.cpp */; };
+		7C9E0A182D1320FE007DDF03 /* RNBO_ExternalLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09BB2D1320FE007DDF03 /* RNBO_ExternalLoader.cpp */; };
+		7C9E0A192D1320FE007DDF03 /* RNBO_FileChangeWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09BD2D1320FE007DDF03 /* RNBO_FileChangeWatcher.cpp */; };
+		7C9E0A1A2D1320FE007DDF03 /* RNBO_List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09C02D1320FE007DDF03 /* RNBO_List.cpp */; };
+		7C9E0A1B2D1320FE007DDF03 /* RNBO_Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09C12D1320FE007DDF03 /* RNBO_Logger.cpp */; };
+		7C9E0A1C2D1320FE007DDF03 /* RNBO_MaxClang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09C22D1320FE007DDF03 /* RNBO_MaxClang.cpp */; };
+		7C9E0A1D2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09CC2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.cpp */; };
+		7C9E0A1E2D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09CF2D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.cpp */; };
+		7C9E0A1F2D1320FE007DDF03 /* RNBO_PatcherFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09D32D1320FE007DDF03 /* RNBO_PatcherFactory.cpp */; };
+		7C9E0A202D1320FE007DDF03 /* RNBO_PatcherState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09D42D1320FE007DDF03 /* RNBO_PatcherState.cpp */; };
+		7C9E0A212D1320FE007DDF03 /* RNBO_PlatformInterfaceImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09D72D1320FE007DDF03 /* RNBO_PlatformInterfaceImpl.cpp */; };
+		7C9E0A222D1320FE007DDF03 /* RNBO_PresetList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09D92D1320FE007DDF03 /* RNBO_PresetList.cpp */; };
+		7C9E0A232D1320FE007DDF03 /* RNBO_RemoteParameterClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09DC2D1320FE007DDF03 /* RNBO_RemoteParameterClient.cpp */; };
+		7C9E0A242D1320FE007DDF03 /* RNBO_UnitTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09E22D1320FE007DDF03 /* RNBO_UnitTests.cpp */; };
+		7C9E0A252D1320FE007DDF03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09E82D1320FE007DDF03 /* main.cpp */; };
+		7C9E0A262D1320FE007DDF03 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09EA2D1320FE007DDF03 /* LICENSE */; };
+		7C9E0A272D1320FE007DDF03 /* RNBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09EB2D1320FE007DDF03 /* RNBO.cpp */; };
+		7C9E0A282D1320FE007DDF03 /* version.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09ED2D1320FE007DDF03 /* version.cmake */; };
+		7C9E0A292D1320FE007DDF03 /* dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09EF2D1320FE007DDF03 /* dependencies.json */; };
+		7C9E0A2A2D1320FE007DDF03 /* description.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09F02D1320FE007DDF03 /* description.json */; };
+		7C9E0A2B2D1320FE007DDF03 /* presets.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E09F12D1320FE007DDF03 /* presets.json */; };
+		7C9E0A2C2D1320FE007DDF03 /* rnbo_source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E09F22D1320FE007DDF03 /* rnbo_source.cpp */; };
+		7C9E0A2F2D13251C007DDF03 /* RNBOBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E0A2E2D13251C007DDF03 /* RNBOBridge.mm */; };
+		7C9E0A312D132576007DDF03 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E0A302D132576007DDF03 /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +78,171 @@
 		7C9E092F2D131BCC007DDF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C9E09312D131BCE007DDF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C9E09342D131BCE007DDF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C9E093B2D1320FE007DDF03 /* au.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = au.cpp; sourceTree = "<group>"; };
+		7C9E093C2D1320FE007DDF03 /* AUInfo.plist.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AUInfo.plist.in; sourceTree = "<group>"; };
+		7C9E093D2D1320FE007DDF03 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		7C9E093E2D1320FE007DDF03 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		7C9E093F2D1320FE007DDF03 /* unity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unity.cpp; sourceTree = "<group>"; };
+		7C9E09402D1320FE007DDF03 /* UnityInfo.plist.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UnityInfo.plist.in; sourceTree = "<group>"; };
+		7C9E09412D1320FE007DDF03 /* vst3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vst3.cpp; sourceTree = "<group>"; };
+		7C9E09422D1320FE007DDF03 /* VST3Info.plist.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VST3Info.plist.in; sourceTree = "<group>"; };
+		7C9E09442D1320FE007DDF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C9E09452D1320FE007DDF03 /* RNBO_JuceAudioProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_JuceAudioProcessor.cpp; sourceTree = "<group>"; };
+		7C9E09462D1320FE007DDF03 /* RNBO_JuceAudioProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_JuceAudioProcessor.h; sourceTree = "<group>"; };
+		7C9E09472D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_JuceAudioProcessorEditor.cpp; sourceTree = "<group>"; };
+		7C9E09482D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_JuceAudioProcessorEditor.h; sourceTree = "<group>"; };
+		7C9E09492D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_JuceAudioProcessorUtils.cpp; sourceTree = "<group>"; };
+		7C9E094A2D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_JuceAudioProcessorUtils.h; sourceTree = "<group>"; };
+		7C9E094C2D1320FE007DDF03 /* rnbo_external_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rnbo_external_wrapper.cpp; sourceTree = "<group>"; };
+		7C9E094F2D1320FE007DDF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C9E09502D1320FE007DDF03 /* rnbo_bufferref.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rnbo_bufferref.cpp; sourceTree = "<group>"; };
+		7C9E09512D1320FE007DDF03 /* rnbo_bufferref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rnbo_bufferref.h; sourceTree = "<group>"; };
+		7C9E09522D1320FE007DDF03 /* rnbo_data_loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rnbo_data_loader.cpp; sourceTree = "<group>"; };
+		7C9E09532D1320FE007DDF03 /* rnbo_data_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rnbo_data_loader.h; sourceTree = "<group>"; };
+		7C9E09542D1320FE007DDF03 /* RNBO_MaxPlatformInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MaxPlatformInterface.h; sourceTree = "<group>"; };
+		7C9E09552D1320FE007DDF03 /* RNBO_MaxPresetAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_MaxPresetAdapter.cpp; sourceTree = "<group>"; };
+		7C9E09562D1320FE007DDF03 /* RNBO_MaxPresetAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MaxPresetAdapter.h; sourceTree = "<group>"; };
+		7C9E09582D1320FE007DDF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C9E09592D1320FE007DDF03 /* RNBO_WebAssembly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_WebAssembly.cpp; sourceTree = "<group>"; };
+		7C9E095C2D1320FE007DDF03 /* CCache.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCache.cmake; sourceTree = "<group>"; };
+		7C9E095D2D1320FE007DDF03 /* conan.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conan.cmake; sourceTree = "<group>"; };
+		7C9E095E2D1320FE007DDF03 /* MinGWSTDThreads.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MinGWSTDThreads.cmake; sourceTree = "<group>"; };
+		7C9E095F2D1320FE007DDF03 /* rnbo_description.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rnbo_description.h.in; sourceTree = "<group>"; };
+		7C9E09602D1320FE007DDF03 /* RNBOConan.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RNBOConan.cmake; sourceTree = "<group>"; };
+		7C9E09612D1320FE007DDF03 /* RNBODescriptionHeader.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RNBODescriptionHeader.cmake; sourceTree = "<group>"; };
+		7C9E09622D1320FE007DDF03 /* RNBOJuce.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RNBOJuce.cmake; sourceTree = "<group>"; };
+		7C9E09632D1320FE007DDF03 /* SCCache.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SCCache.cmake; sourceTree = "<group>"; };
+		7C9E09652D1320FE007DDF03 /* RNBO_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Array.h; sourceTree = "<group>"; };
+		7C9E09662D1320FE007DDF03 /* RNBO_AudioSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_AudioSignal.h; sourceTree = "<group>"; };
+		7C9E09672D1320FE007DDF03 /* RNBO_BaseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_BaseInterface.h; sourceTree = "<group>"; };
+		7C9E09682D1320FE007DDF03 /* RNBO_CMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_CMath.h; sourceTree = "<group>"; };
+		7C9E09692D1320FE007DDF03 /* RNBO_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Common.h; sourceTree = "<group>"; };
+		7C9E096A2D1320FE007DDF03 /* RNBO_CompilerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_CompilerMacros.h; sourceTree = "<group>"; };
+		7C9E096B2D1320FE007DDF03 /* RNBO_DataRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DataRef.h; sourceTree = "<group>"; };
+		7C9E096C2D1320FE007DDF03 /* RNBO_Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Debug.h; sourceTree = "<group>"; };
+		7C9E096D2D1320FE007DDF03 /* RNBO_EngineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EngineInterface.h; sourceTree = "<group>"; };
+		7C9E096E2D1320FE007DDF03 /* RNBO_EngineLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EngineLink.h; sourceTree = "<group>"; };
+		7C9E096F2D1320FE007DDF03 /* RNBO_EventTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EventTarget.h; sourceTree = "<group>"; };
+		7C9E09702D1320FE007DDF03 /* RNBO_ExternalBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ExternalBase.h; sourceTree = "<group>"; };
+		7C9E09712D1320FE007DDF03 /* RNBO_ExternalPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ExternalPtr.h; sourceTree = "<group>"; };
+		7C9E09722D1320FE007DDF03 /* RNBO_List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_List.h; sourceTree = "<group>"; };
+		7C9E09732D1320FE007DDF03 /* RNBO_ListHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ListHelpers.h; sourceTree = "<group>"; };
+		7C9E09742D1320FE007DDF03 /* RNBO_Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Logger.h; sourceTree = "<group>"; };
+		7C9E09752D1320FE007DDF03 /* RNBO_Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Math.h; sourceTree = "<group>"; };
+		7C9E09762D1320FE007DDF03 /* RNBO_MathFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MathFast.h; sourceTree = "<group>"; };
+		7C9E09772D1320FE007DDF03 /* RNBO_MIDIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MIDIHelper.h; sourceTree = "<group>"; };
+		7C9E09782D1320FE007DDF03 /* RNBO_ParameterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterInterface.h; sourceTree = "<group>"; };
+		7C9E09792D1320FE007DDF03 /* RNBO_PatcherEventTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherEventTarget.h; sourceTree = "<group>"; };
+		7C9E097A2D1320FE007DDF03 /* RNBO_PatcherFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherFactory.h; sourceTree = "<group>"; };
+		7C9E097B2D1320FE007DDF03 /* RNBO_PatcherInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherInterface.h; sourceTree = "<group>"; };
+		7C9E097C2D1320FE007DDF03 /* RNBO_PatcherInterfaceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherInterfaceImpl.h; sourceTree = "<group>"; };
+		7C9E097D2D1320FE007DDF03 /* RNBO_PatcherStateInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherStateInterface.h; sourceTree = "<group>"; };
+		7C9E097E2D1320FE007DDF03 /* RNBO_PlatformInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PlatformInterface.h; sourceTree = "<group>"; };
+		7C9E097F2D1320FE007DDF03 /* RNBO_ProbingInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ProbingInterface.h; sourceTree = "<group>"; };
+		7C9E09802D1320FE007DDF03 /* RNBO_ProcessInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ProcessInterface.h; sourceTree = "<group>"; };
+		7C9E09812D1320FE007DDF03 /* RNBO_Std.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Std.h; sourceTree = "<group>"; };
+		7C9E09822D1320FE007DDF03 /* RNBO_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_String.h; sourceTree = "<group>"; };
+		7C9E09832D1320FE007DDF03 /* RNBO_TimeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_TimeConverter.h; sourceTree = "<group>"; };
+		7C9E09842D1320FE007DDF03 /* RNBO_Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Types.h; sourceTree = "<group>"; };
+		7C9E09852D1320FE007DDF03 /* RNBO_UniquePtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_UniquePtr.h; sourceTree = "<group>"; };
+		7C9E09862D1320FE007DDF03 /* RNBO_Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Version.h; sourceTree = "<group>"; };
+		7C9E09882D1320FE007DDF03 /* ext_rnbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_rnbo.h; sourceTree = "<group>"; };
+		7C9E09892D1320FE007DDF03 /* RNBO_DllExternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DllExternal.h; sourceTree = "<group>"; };
+		7C9E098A2D1320FE007DDF03 /* RNBO_External.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_External.h; sourceTree = "<group>"; };
+		7C9E098C2D1320FE007DDF03 /* concurrentqueue_internal_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concurrentqueue_internal_debug.h; sourceTree = "<group>"; };
+		7C9E098E2D1320FE007DDF03 /* blockingconcurrentqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockingconcurrentqueue.h; sourceTree = "<group>"; };
+		7C9E098F2D1320FE007DDF03 /* concurrentqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concurrentqueue.h; sourceTree = "<group>"; };
+		7C9E09902D1320FE007DDF03 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		7C9E09912D1320FE007DDF03 /* lightweightsemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lightweightsemaphore.h; sourceTree = "<group>"; };
+		7C9E09932D1320FE007DDF03 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		7C9E09952D1320FE007DDF03 /* variant.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = variant.hpp; sourceTree = "<group>"; };
+		7C9E09972D1320FE007DDF03 /* atomicops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atomicops.h; sourceTree = "<group>"; };
+		7C9E09982D1320FE007DDF03 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		7C9E09992D1320FE007DDF03 /* readerwriterqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readerwriterqueue.h; sourceTree = "<group>"; };
+		7C9E099C2D1320FE007DDF03 /* RNBO_LoggerNoStdLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_LoggerNoStdLib.cpp; sourceTree = "<group>"; };
+		7C9E099D2D1320FE007DDF03 /* RNBO_PlatformInterfaceNoStdLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_PlatformInterfaceNoStdLib.cpp; sourceTree = "<group>"; };
+		7C9E099F2D1320FE007DDF03 /* RNBO_PlatformInterfaceStdLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PlatformInterfaceStdLib.h; sourceTree = "<group>"; };
+		7C9E09A22D1320FE007DDF03 /* RNBO_AudioBufferConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_AudioBufferConverter.h; sourceTree = "<group>"; };
+		7C9E09A32D1320FE007DDF03 /* RNBO_BeatTimeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_BeatTimeEvent.h; sourceTree = "<group>"; };
+		7C9E09A42D1320FE007DDF03 /* RNBO_BinaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_BinaryData.h; sourceTree = "<group>"; };
+		7C9E09A52D1320FE007DDF03 /* RNBO_ClangInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ClangInterface.h; sourceTree = "<group>"; };
+		7C9E09A62D1320FE007DDF03 /* RNBO_ClockEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ClockEvent.h; sourceTree = "<group>"; };
+		7C9E09A72D1320FE007DDF03 /* RNBO_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Config.h; sourceTree = "<group>"; };
+		7C9E09A82D1320FE007DDF03 /* RNBO_CoreObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_CoreObject.cpp; sourceTree = "<group>"; };
+		7C9E09A92D1320FE007DDF03 /* RNBO_CoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_CoreObject.h; sourceTree = "<group>"; };
+		7C9E09AA2D1320FE007DDF03 /* RNBO_DataBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_DataBuffer.cpp; sourceTree = "<group>"; };
+		7C9E09AB2D1320FE007DDF03 /* RNBO_DataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DataBuffer.h; sourceTree = "<group>"; };
+		7C9E09AC2D1320FE007DDF03 /* RNBO_DataRefEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DataRefEvent.h; sourceTree = "<group>"; };
+		7C9E09AD2D1320FE007DDF03 /* RNBO_DataRefList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_DataRefList.cpp; sourceTree = "<group>"; };
+		7C9E09AE2D1320FE007DDF03 /* RNBO_DataRefList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DataRefList.h; sourceTree = "<group>"; };
+		7C9E09AF2D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_DynamicPatcherFactory.cpp; sourceTree = "<group>"; };
+		7C9E09B02D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DynamicPatcherFactory.h; sourceTree = "<group>"; };
+		7C9E09B12D1320FE007DDF03 /* RNBO_DynamicSymbolRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_DynamicSymbolRegistry.h; sourceTree = "<group>"; };
+		7C9E09B22D1320FE007DDF03 /* RNBO_EmptyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EmptyEvent.h; sourceTree = "<group>"; };
+		7C9E09B32D1320FE007DDF03 /* RNBO_Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_Engine.cpp; sourceTree = "<group>"; };
+		7C9E09B42D1320FE007DDF03 /* RNBO_Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Engine.h; sourceTree = "<group>"; };
+		7C9E09B52D1320FE007DDF03 /* RNBO_EngineCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EngineCore.h; sourceTree = "<group>"; };
+		7C9E09B62D1320FE007DDF03 /* RNBO_EventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EventList.h; sourceTree = "<group>"; };
+		7C9E09B72D1320FE007DDF03 /* RNBO_EventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EventQueue.h; sourceTree = "<group>"; };
+		7C9E09B82D1320FE007DDF03 /* RNBO_EventSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EventSender.h; sourceTree = "<group>"; };
+		7C9E09B92D1320FE007DDF03 /* RNBO_EventVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_EventVariant.h; sourceTree = "<group>"; };
+		7C9E09BA2D1320FE007DDF03 /* RNBO_ExternalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ExternalData.h; sourceTree = "<group>"; };
+		7C9E09BB2D1320FE007DDF03 /* RNBO_ExternalLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_ExternalLoader.cpp; sourceTree = "<group>"; };
+		7C9E09BC2D1320FE007DDF03 /* RNBO_ExternalLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ExternalLoader.h; sourceTree = "<group>"; };
+		7C9E09BD2D1320FE007DDF03 /* RNBO_FileChangeWatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_FileChangeWatcher.cpp; sourceTree = "<group>"; };
+		7C9E09BE2D1320FE007DDF03 /* RNBO_FileChangeWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_FileChangeWatcher.h; sourceTree = "<group>"; };
+		7C9E09BF2D1320FE007DDF03 /* RNBO_HardwareDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_HardwareDevice.h; sourceTree = "<group>"; };
+		7C9E09C02D1320FE007DDF03 /* RNBO_List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_List.cpp; sourceTree = "<group>"; };
+		7C9E09C12D1320FE007DDF03 /* RNBO_Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_Logger.cpp; sourceTree = "<group>"; };
+		7C9E09C22D1320FE007DDF03 /* RNBO_MaxClang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_MaxClang.cpp; sourceTree = "<group>"; };
+		7C9E09C32D1320FE007DDF03 /* RNBO_MaxClang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MaxClang.h; sourceTree = "<group>"; };
+		7C9E09C42D1320FE007DDF03 /* RNBO_MessageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MessageEvent.h; sourceTree = "<group>"; };
+		7C9E09C52D1320FE007DDF03 /* RNBO_MidiEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MidiEvent.h; sourceTree = "<group>"; };
+		7C9E09C62D1320FE007DDF03 /* RNBO_MidiStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_MidiStreamParser.h; sourceTree = "<group>"; };
+		7C9E09C72D1320FE007DDF03 /* RNBO_NullPatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_NullPatcher.h; sourceTree = "<group>"; };
+		7C9E09C82D1320FE007DDF03 /* RNBO_OutletEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_OutletEvent.h; sourceTree = "<group>"; };
+		7C9E09C92D1320FE007DDF03 /* RNBO_ParameterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterEvent.h; sourceTree = "<group>"; };
+		7C9E09CA2D1320FE007DDF03 /* RNBO_ParameterEventInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterEventInterface.h; sourceTree = "<group>"; };
+		7C9E09CB2D1320FE007DDF03 /* RNBO_ParameterEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterEventQueue.h; sourceTree = "<group>"; };
+		7C9E09CC2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_ParameterInterfaceAsync.cpp; sourceTree = "<group>"; };
+		7C9E09CD2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterInterfaceAsync.h; sourceTree = "<group>"; };
+		7C9E09CE2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsyncImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterInterfaceAsyncImpl.h; sourceTree = "<group>"; };
+		7C9E09CF2D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_ParameterInterfaceSync.cpp; sourceTree = "<group>"; };
+		7C9E09D02D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParameterInterfaceSync.h; sourceTree = "<group>"; };
+		7C9E09D12D1320FE007DDF03 /* RNBO_ParamNameHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ParamNameHash.h; sourceTree = "<group>"; };
+		7C9E09D22D1320FE007DDF03 /* RNBO_PatcherEventSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherEventSender.h; sourceTree = "<group>"; };
+		7C9E09D32D1320FE007DDF03 /* RNBO_PatcherFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_PatcherFactory.cpp; sourceTree = "<group>"; };
+		7C9E09D42D1320FE007DDF03 /* RNBO_PatcherState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_PatcherState.cpp; sourceTree = "<group>"; };
+		7C9E09D52D1320FE007DDF03 /* RNBO_PatcherState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherState.h; sourceTree = "<group>"; };
+		7C9E09D62D1320FE007DDF03 /* RNBO_PatcherStateDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PatcherStateDummy.h; sourceTree = "<group>"; };
+		7C9E09D72D1320FE007DDF03 /* RNBO_PlatformInterfaceImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_PlatformInterfaceImpl.cpp; sourceTree = "<group>"; };
+		7C9E09D82D1320FE007DDF03 /* RNBO_PresetEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PresetEvent.h; sourceTree = "<group>"; };
+		7C9E09D92D1320FE007DDF03 /* RNBO_PresetList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_PresetList.cpp; sourceTree = "<group>"; };
+		7C9E09DA2D1320FE007DDF03 /* RNBO_PresetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_PresetList.h; sourceTree = "<group>"; };
+		7C9E09DB2D1320FE007DDF03 /* RNBO_Presets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Presets.h; sourceTree = "<group>"; };
+		7C9E09DC2D1320FE007DDF03 /* RNBO_RemoteParameterClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_RemoteParameterClient.cpp; sourceTree = "<group>"; };
+		7C9E09DD2D1320FE007DDF03 /* RNBO_ServiceNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_ServiceNotification.h; sourceTree = "<group>"; };
+		7C9E09DE2D1320FE007DDF03 /* RNBO_StartupEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_StartupEvent.h; sourceTree = "<group>"; };
+		7C9E09DF2D1320FE007DDF03 /* RNBO_TempoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_TempoEvent.h; sourceTree = "<group>"; };
+		7C9E09E02D1320FE007DDF03 /* RNBO_TimeSignatureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_TimeSignatureEvent.h; sourceTree = "<group>"; };
+		7C9E09E12D1320FE007DDF03 /* RNBO_TransportEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_TransportEvent.h; sourceTree = "<group>"; };
+		7C9E09E22D1320FE007DDF03 /* RNBO_UnitTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO_UnitTests.cpp; sourceTree = "<group>"; };
+		7C9E09E32D1320FE007DDF03 /* RNBO_UnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_UnitTests.h; sourceTree = "<group>"; };
+		7C9E09E42D1320FE007DDF03 /* RNBO_UniversalEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_UniversalEvent.h; sourceTree = "<group>"; };
+		7C9E09E52D1320FE007DDF03 /* RNBO_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Utils.h; sourceTree = "<group>"; };
+		7C9E09E62D1320FE007DDF03 /* RNBO_Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO_Vector.h; sourceTree = "<group>"; };
+		7C9E09E82D1320FE007DDF03 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7C9E09EA2D1320FE007DDF03 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C9E09EB2D1320FE007DDF03 /* RNBO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RNBO.cpp; sourceTree = "<group>"; };
+		7C9E09EC2D1320FE007DDF03 /* RNBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBO.h; sourceTree = "<group>"; };
+		7C9E09ED2D1320FE007DDF03 /* version.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.cmake; sourceTree = "<group>"; };
+		7C9E09EF2D1320FE007DDF03 /* dependencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dependencies.json; sourceTree = "<group>"; };
+		7C9E09F02D1320FE007DDF03 /* description.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = description.json; sourceTree = "<group>"; };
+		7C9E09F12D1320FE007DDF03 /* presets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = presets.json; sourceTree = "<group>"; };
+		7C9E09F22D1320FE007DDF03 /* rnbo_source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rnbo_source.cpp; sourceTree = "<group>"; };
+		7C9E0A2D2D132125007DDF03 /* RNBOBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBOBridge.h; sourceTree = "<group>"; };
+		7C9E0A2E2D13251C007DDF03 /* RNBOBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RNBOBridge.mm; sourceTree = "<group>"; };
+		7C9E0A302D132576007DDF03 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +277,11 @@
 			children = (
 				7C9E092D2D131BCC007DDF03 /* RnboEmbedderApp.swift */,
 				7C9E092F2D131BCC007DDF03 /* ContentView.swift */,
+				7C9E0A302D132576007DDF03 /* AudioManager.swift */,
 				7C9E09312D131BCE007DDF03 /* Assets.xcassets */,
+				7C9E0A2D2D132125007DDF03 /* RNBOBridge.h */,
+				7C9E0A2E2D13251C007DDF03 /* RNBOBridge.mm */,
+				7C9E09F32D1320FE007DDF03 /* RNBOEngine */,
 				7C9E09332D131BCE007DDF03 /* Preview Content */,
 			);
 			path = RnboEmbedder;
@@ -66,6 +294,352 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		7C9E09432D1320FE007DDF03 /* staticplugin */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E093B2D1320FE007DDF03 /* au.cpp */,
+				7C9E093C2D1320FE007DDF03 /* AUInfo.plist.in */,
+				7C9E093D2D1320FE007DDF03 /* common.cpp */,
+				7C9E093E2D1320FE007DDF03 /* PkgInfo */,
+				7C9E093F2D1320FE007DDF03 /* unity.cpp */,
+				7C9E09402D1320FE007DDF03 /* UnityInfo.plist.in */,
+				7C9E09412D1320FE007DDF03 /* vst3.cpp */,
+				7C9E09422D1320FE007DDF03 /* VST3Info.plist.in */,
+			);
+			path = staticplugin;
+			sourceTree = "<group>";
+		};
+		7C9E094B2D1320FE007DDF03 /* juce */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09432D1320FE007DDF03 /* staticplugin */,
+				7C9E09442D1320FE007DDF03 /* LICENSE */,
+				7C9E09452D1320FE007DDF03 /* RNBO_JuceAudioProcessor.cpp */,
+				7C9E09462D1320FE007DDF03 /* RNBO_JuceAudioProcessor.h */,
+				7C9E09472D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.cpp */,
+				7C9E09482D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.h */,
+				7C9E09492D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.cpp */,
+				7C9E094A2D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.h */,
+			);
+			path = juce;
+			sourceTree = "<group>";
+		};
+		7C9E094D2D1320FE007DDF03 /* rnbo_external_wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E094C2D1320FE007DDF03 /* rnbo_external_wrapper.cpp */,
+			);
+			path = rnbo_external_wrapper;
+			sourceTree = "<group>";
+		};
+		7C9E094E2D1320FE007DDF03 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E094D2D1320FE007DDF03 /* rnbo_external_wrapper */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		7C9E09572D1320FE007DDF03 /* max */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E094E2D1320FE007DDF03 /* external */,
+				7C9E094F2D1320FE007DDF03 /* LICENSE */,
+				7C9E09502D1320FE007DDF03 /* rnbo_bufferref.cpp */,
+				7C9E09512D1320FE007DDF03 /* rnbo_bufferref.h */,
+				7C9E09522D1320FE007DDF03 /* rnbo_data_loader.cpp */,
+				7C9E09532D1320FE007DDF03 /* rnbo_data_loader.h */,
+				7C9E09542D1320FE007DDF03 /* RNBO_MaxPlatformInterface.h */,
+				7C9E09552D1320FE007DDF03 /* RNBO_MaxPresetAdapter.cpp */,
+				7C9E09562D1320FE007DDF03 /* RNBO_MaxPresetAdapter.h */,
+			);
+			path = max;
+			sourceTree = "<group>";
+		};
+		7C9E095A2D1320FE007DDF03 /* wasm */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09582D1320FE007DDF03 /* LICENSE */,
+				7C9E09592D1320FE007DDF03 /* RNBO_WebAssembly.cpp */,
+			);
+			path = wasm;
+			sourceTree = "<group>";
+		};
+		7C9E095B2D1320FE007DDF03 /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E094B2D1320FE007DDF03 /* juce */,
+				7C9E09572D1320FE007DDF03 /* max */,
+				7C9E095A2D1320FE007DDF03 /* wasm */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+		7C9E09642D1320FE007DDF03 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E095C2D1320FE007DDF03 /* CCache.cmake */,
+				7C9E095D2D1320FE007DDF03 /* conan.cmake */,
+				7C9E095E2D1320FE007DDF03 /* MinGWSTDThreads.cmake */,
+				7C9E095F2D1320FE007DDF03 /* rnbo_description.h.in */,
+				7C9E09602D1320FE007DDF03 /* RNBOConan.cmake */,
+				7C9E09612D1320FE007DDF03 /* RNBODescriptionHeader.cmake */,
+				7C9E09622D1320FE007DDF03 /* RNBOJuce.cmake */,
+				7C9E09632D1320FE007DDF03 /* SCCache.cmake */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		7C9E09872D1320FE007DDF03 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09652D1320FE007DDF03 /* RNBO_Array.h */,
+				7C9E09662D1320FE007DDF03 /* RNBO_AudioSignal.h */,
+				7C9E09672D1320FE007DDF03 /* RNBO_BaseInterface.h */,
+				7C9E09682D1320FE007DDF03 /* RNBO_CMath.h */,
+				7C9E09692D1320FE007DDF03 /* RNBO_Common.h */,
+				7C9E096A2D1320FE007DDF03 /* RNBO_CompilerMacros.h */,
+				7C9E096B2D1320FE007DDF03 /* RNBO_DataRef.h */,
+				7C9E096C2D1320FE007DDF03 /* RNBO_Debug.h */,
+				7C9E096D2D1320FE007DDF03 /* RNBO_EngineInterface.h */,
+				7C9E096E2D1320FE007DDF03 /* RNBO_EngineLink.h */,
+				7C9E096F2D1320FE007DDF03 /* RNBO_EventTarget.h */,
+				7C9E09702D1320FE007DDF03 /* RNBO_ExternalBase.h */,
+				7C9E09712D1320FE007DDF03 /* RNBO_ExternalPtr.h */,
+				7C9E09722D1320FE007DDF03 /* RNBO_List.h */,
+				7C9E09732D1320FE007DDF03 /* RNBO_ListHelpers.h */,
+				7C9E09742D1320FE007DDF03 /* RNBO_Logger.h */,
+				7C9E09752D1320FE007DDF03 /* RNBO_Math.h */,
+				7C9E09762D1320FE007DDF03 /* RNBO_MathFast.h */,
+				7C9E09772D1320FE007DDF03 /* RNBO_MIDIHelper.h */,
+				7C9E09782D1320FE007DDF03 /* RNBO_ParameterInterface.h */,
+				7C9E09792D1320FE007DDF03 /* RNBO_PatcherEventTarget.h */,
+				7C9E097A2D1320FE007DDF03 /* RNBO_PatcherFactory.h */,
+				7C9E097B2D1320FE007DDF03 /* RNBO_PatcherInterface.h */,
+				7C9E097C2D1320FE007DDF03 /* RNBO_PatcherInterfaceImpl.h */,
+				7C9E097D2D1320FE007DDF03 /* RNBO_PatcherStateInterface.h */,
+				7C9E097E2D1320FE007DDF03 /* RNBO_PlatformInterface.h */,
+				7C9E097F2D1320FE007DDF03 /* RNBO_ProbingInterface.h */,
+				7C9E09802D1320FE007DDF03 /* RNBO_ProcessInterface.h */,
+				7C9E09812D1320FE007DDF03 /* RNBO_Std.h */,
+				7C9E09822D1320FE007DDF03 /* RNBO_String.h */,
+				7C9E09832D1320FE007DDF03 /* RNBO_TimeConverter.h */,
+				7C9E09842D1320FE007DDF03 /* RNBO_Types.h */,
+				7C9E09852D1320FE007DDF03 /* RNBO_UniquePtr.h */,
+				7C9E09862D1320FE007DDF03 /* RNBO_Version.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		7C9E098B2D1320FE007DDF03 /* externals */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09882D1320FE007DDF03 /* ext_rnbo.h */,
+				7C9E09892D1320FE007DDF03 /* RNBO_DllExternal.h */,
+				7C9E098A2D1320FE007DDF03 /* RNBO_External.h */,
+			);
+			path = externals;
+			sourceTree = "<group>";
+		};
+		7C9E098D2D1320FE007DDF03 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E098C2D1320FE007DDF03 /* concurrentqueue_internal_debug.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		7C9E09922D1320FE007DDF03 /* concurrentqueue */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E098D2D1320FE007DDF03 /* internal */,
+				7C9E098E2D1320FE007DDF03 /* blockingconcurrentqueue.h */,
+				7C9E098F2D1320FE007DDF03 /* concurrentqueue.h */,
+				7C9E09902D1320FE007DDF03 /* LICENSE.md */,
+				7C9E09912D1320FE007DDF03 /* lightweightsemaphore.h */,
+			);
+			path = concurrentqueue;
+			sourceTree = "<group>";
+		};
+		7C9E09942D1320FE007DDF03 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09932D1320FE007DDF03 /* json.hpp */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		7C9E09962D1320FE007DDF03 /* MPark_variant */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09952D1320FE007DDF03 /* variant.hpp */,
+			);
+			path = MPark_variant;
+			sourceTree = "<group>";
+		};
+		7C9E099A2D1320FE007DDF03 /* readerwriterqueue */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09972D1320FE007DDF03 /* atomicops.h */,
+				7C9E09982D1320FE007DDF03 /* LICENSE.md */,
+				7C9E09992D1320FE007DDF03 /* readerwriterqueue.h */,
+			);
+			path = readerwriterqueue;
+			sourceTree = "<group>";
+		};
+		7C9E099B2D1320FE007DDF03 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09922D1320FE007DDF03 /* concurrentqueue */,
+				7C9E09942D1320FE007DDF03 /* json */,
+				7C9E09962D1320FE007DDF03 /* MPark_variant */,
+				7C9E099A2D1320FE007DDF03 /* readerwriterqueue */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		7C9E099E2D1320FE007DDF03 /* nostdlib */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E099C2D1320FE007DDF03 /* RNBO_LoggerNoStdLib.cpp */,
+				7C9E099D2D1320FE007DDF03 /* RNBO_PlatformInterfaceNoStdLib.cpp */,
+			);
+			path = nostdlib;
+			sourceTree = "<group>";
+		};
+		7C9E09A02D1320FE007DDF03 /* stdlib */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E099F2D1320FE007DDF03 /* RNBO_PlatformInterfaceStdLib.h */,
+			);
+			path = stdlib;
+			sourceTree = "<group>";
+		};
+		7C9E09A12D1320FE007DDF03 /* platforms */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E099E2D1320FE007DDF03 /* nostdlib */,
+				7C9E09A02D1320FE007DDF03 /* stdlib */,
+			);
+			path = platforms;
+			sourceTree = "<group>";
+		};
+		7C9E09E72D1320FE007DDF03 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E099B2D1320FE007DDF03 /* 3rdparty */,
+				7C9E09A12D1320FE007DDF03 /* platforms */,
+				7C9E09A22D1320FE007DDF03 /* RNBO_AudioBufferConverter.h */,
+				7C9E09A32D1320FE007DDF03 /* RNBO_BeatTimeEvent.h */,
+				7C9E09A42D1320FE007DDF03 /* RNBO_BinaryData.h */,
+				7C9E09A52D1320FE007DDF03 /* RNBO_ClangInterface.h */,
+				7C9E09A62D1320FE007DDF03 /* RNBO_ClockEvent.h */,
+				7C9E09A72D1320FE007DDF03 /* RNBO_Config.h */,
+				7C9E09A82D1320FE007DDF03 /* RNBO_CoreObject.cpp */,
+				7C9E09A92D1320FE007DDF03 /* RNBO_CoreObject.h */,
+				7C9E09AA2D1320FE007DDF03 /* RNBO_DataBuffer.cpp */,
+				7C9E09AB2D1320FE007DDF03 /* RNBO_DataBuffer.h */,
+				7C9E09AC2D1320FE007DDF03 /* RNBO_DataRefEvent.h */,
+				7C9E09AD2D1320FE007DDF03 /* RNBO_DataRefList.cpp */,
+				7C9E09AE2D1320FE007DDF03 /* RNBO_DataRefList.h */,
+				7C9E09AF2D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.cpp */,
+				7C9E09B02D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.h */,
+				7C9E09B12D1320FE007DDF03 /* RNBO_DynamicSymbolRegistry.h */,
+				7C9E09B22D1320FE007DDF03 /* RNBO_EmptyEvent.h */,
+				7C9E09B32D1320FE007DDF03 /* RNBO_Engine.cpp */,
+				7C9E09B42D1320FE007DDF03 /* RNBO_Engine.h */,
+				7C9E09B52D1320FE007DDF03 /* RNBO_EngineCore.h */,
+				7C9E09B62D1320FE007DDF03 /* RNBO_EventList.h */,
+				7C9E09B72D1320FE007DDF03 /* RNBO_EventQueue.h */,
+				7C9E09B82D1320FE007DDF03 /* RNBO_EventSender.h */,
+				7C9E09B92D1320FE007DDF03 /* RNBO_EventVariant.h */,
+				7C9E09BA2D1320FE007DDF03 /* RNBO_ExternalData.h */,
+				7C9E09BB2D1320FE007DDF03 /* RNBO_ExternalLoader.cpp */,
+				7C9E09BC2D1320FE007DDF03 /* RNBO_ExternalLoader.h */,
+				7C9E09BD2D1320FE007DDF03 /* RNBO_FileChangeWatcher.cpp */,
+				7C9E09BE2D1320FE007DDF03 /* RNBO_FileChangeWatcher.h */,
+				7C9E09BF2D1320FE007DDF03 /* RNBO_HardwareDevice.h */,
+				7C9E09C02D1320FE007DDF03 /* RNBO_List.cpp */,
+				7C9E09C12D1320FE007DDF03 /* RNBO_Logger.cpp */,
+				7C9E09C22D1320FE007DDF03 /* RNBO_MaxClang.cpp */,
+				7C9E09C32D1320FE007DDF03 /* RNBO_MaxClang.h */,
+				7C9E09C42D1320FE007DDF03 /* RNBO_MessageEvent.h */,
+				7C9E09C52D1320FE007DDF03 /* RNBO_MidiEvent.h */,
+				7C9E09C62D1320FE007DDF03 /* RNBO_MidiStreamParser.h */,
+				7C9E09C72D1320FE007DDF03 /* RNBO_NullPatcher.h */,
+				7C9E09C82D1320FE007DDF03 /* RNBO_OutletEvent.h */,
+				7C9E09C92D1320FE007DDF03 /* RNBO_ParameterEvent.h */,
+				7C9E09CA2D1320FE007DDF03 /* RNBO_ParameterEventInterface.h */,
+				7C9E09CB2D1320FE007DDF03 /* RNBO_ParameterEventQueue.h */,
+				7C9E09CC2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.cpp */,
+				7C9E09CD2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.h */,
+				7C9E09CE2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsyncImpl.h */,
+				7C9E09CF2D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.cpp */,
+				7C9E09D02D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.h */,
+				7C9E09D12D1320FE007DDF03 /* RNBO_ParamNameHash.h */,
+				7C9E09D22D1320FE007DDF03 /* RNBO_PatcherEventSender.h */,
+				7C9E09D32D1320FE007DDF03 /* RNBO_PatcherFactory.cpp */,
+				7C9E09D42D1320FE007DDF03 /* RNBO_PatcherState.cpp */,
+				7C9E09D52D1320FE007DDF03 /* RNBO_PatcherState.h */,
+				7C9E09D62D1320FE007DDF03 /* RNBO_PatcherStateDummy.h */,
+				7C9E09D72D1320FE007DDF03 /* RNBO_PlatformInterfaceImpl.cpp */,
+				7C9E09D82D1320FE007DDF03 /* RNBO_PresetEvent.h */,
+				7C9E09D92D1320FE007DDF03 /* RNBO_PresetList.cpp */,
+				7C9E09DA2D1320FE007DDF03 /* RNBO_PresetList.h */,
+				7C9E09DB2D1320FE007DDF03 /* RNBO_Presets.h */,
+				7C9E09DC2D1320FE007DDF03 /* RNBO_RemoteParameterClient.cpp */,
+				7C9E09DD2D1320FE007DDF03 /* RNBO_ServiceNotification.h */,
+				7C9E09DE2D1320FE007DDF03 /* RNBO_StartupEvent.h */,
+				7C9E09DF2D1320FE007DDF03 /* RNBO_TempoEvent.h */,
+				7C9E09E02D1320FE007DDF03 /* RNBO_TimeSignatureEvent.h */,
+				7C9E09E12D1320FE007DDF03 /* RNBO_TransportEvent.h */,
+				7C9E09E22D1320FE007DDF03 /* RNBO_UnitTests.cpp */,
+				7C9E09E32D1320FE007DDF03 /* RNBO_UnitTests.h */,
+				7C9E09E42D1320FE007DDF03 /* RNBO_UniversalEvent.h */,
+				7C9E09E52D1320FE007DDF03 /* RNBO_Utils.h */,
+				7C9E09E62D1320FE007DDF03 /* RNBO_Vector.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7C9E09E92D1320FE007DDF03 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09E82D1320FE007DDF03 /* main.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		7C9E09EE2D1320FE007DDF03 /* rnbo */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E095B2D1320FE007DDF03 /* adapters */,
+				7C9E09642D1320FE007DDF03 /* cmake */,
+				7C9E09872D1320FE007DDF03 /* common */,
+				7C9E098B2D1320FE007DDF03 /* externals */,
+				7C9E09E72D1320FE007DDF03 /* src */,
+				7C9E09E92D1320FE007DDF03 /* test */,
+				7C9E09EA2D1320FE007DDF03 /* LICENSE */,
+				7C9E09EB2D1320FE007DDF03 /* RNBO.cpp */,
+				7C9E09EC2D1320FE007DDF03 /* RNBO.h */,
+				7C9E09ED2D1320FE007DDF03 /* version.cmake */,
+			);
+			path = rnbo;
+			sourceTree = "<group>";
+		};
+		7C9E09F32D1320FE007DDF03 /* RNBOEngine */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E09EE2D1320FE007DDF03 /* rnbo */,
+				7C9E09EF2D1320FE007DDF03 /* dependencies.json */,
+				7C9E09F02D1320FE007DDF03 /* description.json */,
+				7C9E09F12D1320FE007DDF03 /* presets.json */,
+				7C9E09F22D1320FE007DDF03 /* rnbo_source.cpp */,
+			);
+			name = RNBOEngine;
+			path = RnboEmbedder/RNBOEngine;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,8 +699,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9E0A0C2D1320FE007DDF03 /* RNBODescriptionHeader.cmake in Resources */,
+				7C9E0A092D1320FE007DDF03 /* MinGWSTDThreads.cmake in Resources */,
+				7C9E0A2B2D1320FE007DDF03 /* presets.json in Resources */,
+				7C9E09F92D1320FE007DDF03 /* UnityInfo.plist.in in Resources */,
 				7C9E09352D131BCE007DDF03 /* Preview Assets.xcassets in Resources */,
+				7C9E0A072D1320FE007DDF03 /* CCache.cmake in Resources */,
+				7C9E0A0D2D1320FE007DDF03 /* RNBOJuce.cmake in Resources */,
+				7C9E0A2A2D1320FE007DDF03 /* description.json in Resources */,
+				7C9E0A0A2D1320FE007DDF03 /* rnbo_description.h.in in Resources */,
+				7C9E0A012D1320FE007DDF03 /* LICENSE in Resources */,
+				7C9E09FB2D1320FE007DDF03 /* VST3Info.plist.in in Resources */,
+				7C9E09FC2D1320FE007DDF03 /* LICENSE in Resources */,
+				7C9E0A0F2D1320FE007DDF03 /* LICENSE.md in Resources */,
+				7C9E0A282D1320FE007DDF03 /* version.cmake in Resources */,
+				7C9E09F72D1320FE007DDF03 /* PkgInfo in Resources */,
+				7C9E0A052D1320FE007DDF03 /* LICENSE in Resources */,
+				7C9E0A0B2D1320FE007DDF03 /* RNBOConan.cmake in Resources */,
+				7C9E0A262D1320FE007DDF03 /* LICENSE in Resources */,
+				7C9E0A102D1320FE007DDF03 /* LICENSE.md in Resources */,
+				7C9E0A082D1320FE007DDF03 /* conan.cmake in Resources */,
+				7C9E09F52D1320FE007DDF03 /* AUInfo.plist.in in Resources */,
 				7C9E09322D131BCE007DDF03 /* Assets.xcassets in Resources */,
+				7C9E0A292D1320FE007DDF03 /* dependencies.json in Resources */,
+				7C9E0A0E2D1320FE007DDF03 /* SCCache.cmake in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +733,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9E0A042D1320FE007DDF03 /* RNBO_MaxPresetAdapter.cpp in Sources */,
+				7C9E0A212D1320FE007DDF03 /* RNBO_PlatformInterfaceImpl.cpp in Sources */,
+				7C9E09FD2D1320FE007DDF03 /* RNBO_JuceAudioProcessor.cpp in Sources */,
+				7C9E0A222D1320FE007DDF03 /* RNBO_PresetList.cpp in Sources */,
+				7C9E09F62D1320FE007DDF03 /* common.cpp in Sources */,
+				7C9E0A062D1320FE007DDF03 /* RNBO_WebAssembly.cpp in Sources */,
+				7C9E0A1B2D1320FE007DDF03 /* RNBO_Logger.cpp in Sources */,
+				7C9E0A132D1320FE007DDF03 /* RNBO_CoreObject.cpp in Sources */,
+				7C9E0A112D1320FE007DDF03 /* RNBO_LoggerNoStdLib.cpp in Sources */,
+				7C9E09FF2D1320FE007DDF03 /* RNBO_JuceAudioProcessorUtils.cpp in Sources */,
+				7C9E0A162D1320FE007DDF03 /* RNBO_DynamicPatcherFactory.cpp in Sources */,
 				7C9E09302D131BCC007DDF03 /* ContentView.swift in Sources */,
+				7C9E0A312D132576007DDF03 /* AudioManager.swift in Sources */,
+				7C9E0A022D1320FE007DDF03 /* rnbo_bufferref.cpp in Sources */,
+				7C9E0A232D1320FE007DDF03 /* RNBO_RemoteParameterClient.cpp in Sources */,
+				7C9E0A1A2D1320FE007DDF03 /* RNBO_List.cpp in Sources */,
+				7C9E0A1D2D1320FE007DDF03 /* RNBO_ParameterInterfaceAsync.cpp in Sources */,
+				7C9E0A122D1320FE007DDF03 /* RNBO_PlatformInterfaceNoStdLib.cpp in Sources */,
+				7C9E0A142D1320FE007DDF03 /* RNBO_DataBuffer.cpp in Sources */,
+				7C9E0A272D1320FE007DDF03 /* RNBO.cpp in Sources */,
+				7C9E0A2F2D13251C007DDF03 /* RNBOBridge.mm in Sources */,
+				7C9E0A252D1320FE007DDF03 /* main.cpp in Sources */,
+				7C9E0A242D1320FE007DDF03 /* RNBO_UnitTests.cpp in Sources */,
+				7C9E0A1E2D1320FE007DDF03 /* RNBO_ParameterInterfaceSync.cpp in Sources */,
+				7C9E0A202D1320FE007DDF03 /* RNBO_PatcherState.cpp in Sources */,
+				7C9E0A032D1320FE007DDF03 /* rnbo_data_loader.cpp in Sources */,
 				7C9E092E2D131BCC007DDF03 /* RnboEmbedderApp.swift in Sources */,
+				7C9E0A182D1320FE007DDF03 /* RNBO_ExternalLoader.cpp in Sources */,
+				7C9E0A2C2D1320FE007DDF03 /* rnbo_source.cpp in Sources */,
+				7C9E09F42D1320FE007DDF03 /* au.cpp in Sources */,
+				7C9E0A152D1320FE007DDF03 /* RNBO_DataRefList.cpp in Sources */,
+				7C9E0A172D1320FE007DDF03 /* RNBO_Engine.cpp in Sources */,
+				7C9E09F82D1320FE007DDF03 /* unity.cpp in Sources */,
+				7C9E09FE2D1320FE007DDF03 /* RNBO_JuceAudioProcessorEditor.cpp in Sources */,
+				7C9E0A1F2D1320FE007DDF03 /* RNBO_PatcherFactory.cpp in Sources */,
+				7C9E0A192D1320FE007DDF03 /* RNBO_FileChangeWatcher.cpp in Sources */,
+				7C9E09FA2D1320FE007DDF03 /* vst3.cpp in Sources */,
+				7C9E0A002D1320FE007DDF03 /* rnbo_external_wrapper.cpp in Sources */,
+				7C9E0A1C2D1320FE007DDF03 /* RNBO_MaxClang.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
